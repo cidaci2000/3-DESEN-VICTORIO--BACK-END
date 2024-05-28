@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site de Sinuca</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Site de Sinuca</h1>
+        
+    </header>
+        
+    <main>
+        <div class="principal">
+            <section>
+                <h2>Informações sobre Sinuca</h2>
+                <p id="mensagem">Texto informativo sobre a sinuca:</p>
+                A sinuca é uma modalidade do bilhar, com regras brasileiras. De acordo com o Regulamento dos Esportes do Bilhar, da Confederação Brasileira de Bilhar e Sinuca, são chamados esportes do bilhar as atividades praticadas em mesas e com uso de tacos e bolas. Na sinuca, são colocadas em jogo 8 bolas.
+            </section>
+            <section>
+            <h2>Cadastro de Cliente</h2>
+            <form id="cadastroForm">
+                <label for="email">E-mail:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+                
+                <label for="senha">Senha:</label>
+                <input type="senha" id="senha" name="email" required><br><br>
+                
+                <button type="button" onclick="cadastrarCliente()">Cadastrar</button>
+            </form>
+            </section>
+        </div>
+        <p id="mensagem"></p>
+
+        <script>
+            function cadastrarCliente() {
+                // Aqui você pode adicionar a lógica de cadastro, como envio do formulário para um backend
+                const nome = document.getElementById('nome').value;
+                const email = document.getElementById('email').value;
+
+                // Exemplo simples de exibição de mensagem
+                document.getElementById('mensagem').textContent = `Cliente ${nome} cadastrado com sucesso com o e-mail ${email}!`;
+            }
+        </script>
+        <section1>
+            <div class="card">
+                <h2>Jogue Sinuca</h2>
+                <img src="sinuca.jpeg" alt="Imagem do jogo de sinuca">
+                <p>Descrição do jogo de sinuca (opcional)</p>
+                <button type="button" onclick="cadastrarCliente()">Jogar</button>
+            </div><div class="card">
+                <h2>Jogue Sinuca</h2>
+                <img src="sinuca.jpeg" alt="Imagem do jogo de sinuca">
+                <p>Descrição do jogo de sinuca (opcional)</p>
+                <button type="button" onclick="cadastrarCliente()">Jogar</button>
+            </div><div class="card">
+                <h2>Jogue Sinuca</h2>
+                <img src="sinuca.jpeg" alt="Imagem do jogo de sinuca">
+                <p>Descrição do jogo de sinuca (opcional)</p>
+                <button type="button" onclick="cadastrarCliente()">Jogar</button>
+            </div><div class="card">
+                <h2>Jogue Sinuca</h2>
+                <img src="sinuca.jpeg" alt="Imagem do jogo de sinuca">
+                <p>Descrição do jogo de sinuca (opcional)</p>
+                <button type="button" onclick="cadastrarCliente()">Jogar</button>
+            </div>
+        </section1>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2024 Site de Sinuca</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
