@@ -1,0 +1,214 @@
+@import url(styles/header.css);
+:root{
+    --cor-de-fundo:rgb(0, 0, 255);
+    --cor-cab:rgb(0, 0, 255);
+    border-color: yellow;
+    
+    
+}
+
+body{
+    /*background-color: var(--cor-de-fundo);*/
+    background: url(img/background.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+   
+}
+p{
+    color:azure;
+}
+#div1{
+    font-style:inherit;
+    text-decoration: dotted;
+}
+#div2{
+    background-color:rgb(0, 0, 255);
+    border: 5px;
+    border-style:double;
+    border-color:  yellow;
+    align-items:center;
+    height: 690px;
+    width: 280px;
+}
+#div2a{
+    background-color:rgb(0, 0, 255); 
+    border: 5px;
+    border-style:double;
+    border-color:  yellow;
+    height:auto;
+    width: 270px;
+    margin-top: 30%;
+    
+    
+}
+
+#div2b{
+    background-color:rgb(0, 0, 255);
+    border: 5px;
+    border-style:double;
+    border-color:  yellow;
+    height:auto;
+    width: 270px;
+    margin-top: 30%;
+}
+
+#div2c{
+    background-color:rgb(0, 0, 255);
+    border: 5px;
+    border-style:double;
+    border-color:  yellow;
+    height:auto;
+    width: 270px;
+    margin-top: 30%;
+    
+    
+}
+#div2f{
+    background-color:rgb(0, 0, 255);
+      
+    border: 5px;
+    border-style:double;
+    border-color:  yellow;
+    margin-top: 10px;
+    text-align: center;
+}
+#div2g{
+    background-color:rgb(0, 0, 255);
+    display:list-item;
+    align-items:center;
+    border: 5px;
+    border-style:double;
+    border-color:  yellow;
+    /*margin-top: -350px;
+    margin-left:930px;*/
+    text-align: center;
+}
+#divgb{
+    text-align: center;
+    height: 50px;
+    width: 150px;
+}
+#div2h{
+    background-color:rgb(3, 3, 121);
+    align-items:center;
+    border: 5px;
+    border-style:double;
+    border-color:  yellow;
+    margin-top: 10px;
+    
+}
+#div3{
+    background-color: gray;
+    margin: 2px;
+    bottom: 0px;
+    display:flex;
+    width: 100%;
+    color: rgb(236, 236, 225);
+    align-items:center;
+    border: 5px;
+    border-style:double;
+    border-color:  yellow;
+   
+    
+
+}
+#capi{
+    height:690px;
+    width:690px;
+    margin-right: 0px;
+}
+#borda{
+    width:500px;
+    margin-left: 35%;
+    border-style:double;
+    border-color:  yellow;
+    background-color: rgba(255, 255, 255, 0.545);
+}
+#produto{
+    height:150px;
+    width:150px;
+}
+#pro{
+    background-color:rgb(3, 3, 121);
+    border: 5px;
+    border-style:double;
+    border-color:  yellow;
+    height:100px;
+    width:20%
+}
+#setup{
+    height:680px;
+    width:680px;
+    margin-right: 0px;
+}
+#demo{
+    height:450px;
+    width:450px;
+    margin-left: 0px;
+}
+#tab{
+    height:450px;
+    border: 5px;
+    align-items:center; 
+    width: 100%; 
+}
+#tab2{
+    margin-left: 50px;
+    border: 5px;
+    align-items:center; 
+    
+}
+#tab3{
+    margin-left: 27%;  
+    align-items:center;
+    
+
+}
+#info{
+    margin-left: 50px;
+    border: 5px;
+    border-style:double;
+    border-color:  yellow;
+    background-color:rgba(198, 198, 255, 0.39);
+    height:300px; 
+}
+#demoimg{
+    background-color:rgba(198, 198, 255, 0.39);
+    margin-right: 50px;
+    border: 5px;
+    border-style:double;
+    border-color:  yellow;
+    align-items: normal;
+    height:300px; 
+}
+#name{
+    margin-top: -100px;
+    height:50px;
+    width:355px;
+    border: 5px;
+    border-style:double;
+    border-color: rgba(0, 0, 0, 0.545);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.545);
+}
+#opcoes{
+    margin-top: 3px;
+    align-items: baseline;
+    background-color: rgba(255, 255, 255, 0.545);
+    border: 2px;
+    border-style:solid;
+    border-color:  yellow;   
+}
+#itens{
+    background-color: rgba(255, 255, 255, 0.545);
+    border: 2px;
+    border-style:solid;
+    border-color:  yellow;   
+}
+#title{
+    background-color: rgba(255, 255, 255);
+    border: 2px;
+    border-style:solid;
+    border-color:  yellow;
+}
