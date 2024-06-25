@@ -1,0 +1,44 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b4d4d8  ; 
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            text-transform: uppercase;
+            height: 450px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn-cadastro {
+            background-color: #d2ceb7;
+            color: white;
+        }
+        .btn-login {
+            background-color: #d2ceb7;
+            color: white;
+        }
+        .titulo{
+            font-size: 35px;   
+            font-family:'Times New Roman', Times, serif;
+          
+        }
+        .logo {
+            width: 150px; 
+            height: 120px; 
+            background-image: url('logoteste.png'); 
+            background-size: contain; 
+            background-repeat: no-repeat; 
+        }

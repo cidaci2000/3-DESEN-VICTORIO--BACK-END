@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a8a6a675;
+    height: 100vh;
+}
+
+header {
+    background-color:#627ea8;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    width: 150px; 
+    height: 150px; 
+    background-image: url('mclogobran.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    height: 610px;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+}
+
+.product-image img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-info h2 {
+    margin-top: 0;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.size-options {
+    margin-bottom: 20px;
+}
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color:#627ea8 ; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+section{
+    height: 100%;
+}
+
+.tamanho-selector {
+    width: 150px;
+    
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  select:hover {
+    border-color: #999;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
+  }
+  h3 {
+    color: #333;
+  }
