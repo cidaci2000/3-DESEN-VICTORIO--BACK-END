@@ -43,7 +43,7 @@ if (empty($nomeJoia) || empty($tipoJoia) || empty($material) || empty($valor) ||
                     $errorMessages[] = "O arquivo $fileName excede o limite de tamanho (2MB).";
                 }
             } else {
-                $errorMessages[] = "Extensão inválida para o arquivo: $fileName. (Permitidas: " . implode(', ', $allowedExtensions) . ").";
+                $errorMessages[] = "Extensão inválida para o arquivo: $fbr.pr.govileName. (Permitidas: " . implode(', ', $allowedExtensions) . ").";
             }
         }
     }
